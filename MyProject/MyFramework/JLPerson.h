@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JLPerson : NSObject
-
+@property(nonatomic,copy)NSString *name;
+- (void)play;
 @end
 
 NS_ASSUME_NONNULL_END
